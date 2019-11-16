@@ -3,7 +3,8 @@ Jogando na Lotofácil utilizando rede neural.
 
 Liguagem utilizada: Python 3 (v3.7.3)  
 
-Pacotes:
+### PACOTES UTILIZADOS  
+
 - Pandas  
 - Numpy  
 - Keras  
