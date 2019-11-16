@@ -11,7 +11,7 @@ Pacotes:
 
 ### FUNCIONALIDADES  
 
-0 - Análise de frequência das dezenas sorteadas por concurso  
-1 - Geração de pesos para cada dezena  
-2 - Criação de jogos  
-2 - Análise de probabilidade das dezenas dos jogos serem sorteadas  
+- Análise de frequência das dezenas sorteadas por concurso  
+- Geração de pesos para cada dezena  
+- Criação de jogos  
+- Análise de probabilidade das dezenas dos jogos serem sorteadas  
