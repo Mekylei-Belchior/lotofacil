@@ -145,7 +145,7 @@ def numeros_faltantes_ciclo():
 
         if qtde_faltantes == n_dz[0] or n_dz[0] == 0:
             # Considera que todos os números faltantes serão sorteados no próximo sorteio
-            return tuple((num_faltantes, maior_peso))
+            return num_faltantes, maior_peso
 
         elif 1 < qtde_faltantes != n_dz[0] and n_dz[0] > 0:
             # Demais números faltantes que não foram sorteados
@@ -177,7 +177,7 @@ def numeros_faltantes_ciclo():
 
         if qtde_faltantes == n_dz[0] or n_dz[0] == 0:
             # Considera que todos os números faltantes serão sorteados no próximo sorteio
-            return tuple((num_faltantes, maior_peso))
+            return num_faltantes, maior_peso
 
         elif 1 < qtde_faltantes != n_dz[0] and n_dz[0] > 0:
             # Demais números faltantes que não foram sorteados
@@ -209,13 +209,13 @@ def numeros_faltantes_ciclo():
 
         if qtde_faltantes == n_dz[0] or n_dz[0] == 0:
             # Considera que todos os números faltantes serão sorteados no próximo sorteio
-            return tuple((num_faltantes, maior_peso))
+            return num_faltantes, maior_peso
 
         elif 1 < qtde_faltantes != n_dz[0] and n_dz[0] > 0:
             # Demais números faltantes que não foram sorteados
             restantes = [numero for numero in num_faltantes if numero not in faltantes]
 
-            return tuple((faltantes, maior_peso)), tuple((restantes, maior_peso // 2))
+            return faltantes, maior_peso, restantes, maior_peso // 2
 
     # Para jogos igual ou maior que 5, retorna a dezena que ainda não foi sorteada
     else:
