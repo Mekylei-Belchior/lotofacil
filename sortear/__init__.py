@@ -3,13 +3,14 @@ from random import choices
 
 def sortear_numeros(n_pesos: list, n_numero_peso: dict):
 
-    dz = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+    # Dezenas do jogo (1 à 25)
+    dz = [d for d in range(1, 26)]
 
     dezenas = dz[:]
     pesos = n_pesos[:]
     numero_peso = n_numero_peso.copy()
 
-    sorteados = []
+    sorteados = list()
 
     # Sorteando as 15 dezenas do jogo
     while len(sorteados) != 15:

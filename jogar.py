@@ -1,5 +1,6 @@
-from calcular import calcular_pesos, calcular_numero_pesos
+from calcular import calcular_numero_pesos
 from sortear import sortear_numeros
+from dados import carregar
 
 import pandas as pd
 import numpy as np
@@ -8,15 +9,11 @@ from keras.models import Sequential
 from keras.layers import Dense
 from sklearn.model_selection import train_test_split
 
-# Importando os dados da planilha do Excel
-# Gerando o dataframe da base de dados
-
-caminho = 'base_dados.xlsx'
-planilha = pd.ExcelFile(caminho)
-dados = pd.read_excel(planilha, 'Importar')
+# Carrega a base de dados
+dados = carregar()
 
 # Reajustando a columa de ganhadores para: 1 - concurso com ganhadores | 0 - concurso sem ganhadores
-dados.loc[dados['Ganhadores'] > 1, 'Ganhadores'] = 1
+dados.loc[dados['Ganhou'] > 1, 'Ganhou'] = 1
 
 # Preparando os dados para o modelo
 # Seleciona todas as linhas mais as colunas das dezenas sorteadas e a coluna de ganhadores
@@ -50,13 +47,12 @@ pontuacao = modelo.evaluate(X_teste, y_teste)
 
 # Inicialização das variáveis
 probabilidade = 0.00
-prob_alvo = 99.5   # probabilidade desejada
+prob_alvo = 100.0   # probabilidade desejada
 procurando = 0
-sorteados = []
+sorteados = list()
 predicao_alvo = 00.00
 
-peso = calcular_pesos()
-numero_pesos = calcular_numero_pesos()
+peso, numero_pesos = calcular_numero_pesos()
 
 # Replica até que a probabilidade seja igual à desejada
 while probabilidade < prob_alvo:
@@ -85,7 +81,7 @@ while probabilidade < prob_alvo:
           f' - Prob. Enc.: ({str(probabilidade).zfill(2)}%) Seq: {sequencia}')
 
 # Resultados
-print(f'\nAcuracidade do Modelo: {round((pontuacao[1]*100), 5)}%')
+print(f'\nAcuracidade do Modelo: {round((pontuacao[1]*100), 1)}%')
 
 print('\n0 = Não tem chance de ganhar | 1 = Tem chance de ganhar')
 print(f'Resultado: (Previsão Modelo) = {predicao_alvo[0][0]}')
