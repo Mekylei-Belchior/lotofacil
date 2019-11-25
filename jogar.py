@@ -78,7 +78,9 @@ while probabilidade < prob_alvo:
     sequencia = [str(numero[0]).zfill(2) for numero in sorteados]
 
     print(f'Alvo = ({prob_alvo}%) - ACURAC.: {round((pontuacao[1]*100), 1)}% - Rep.: {str(procurando).zfill(7)}'
-          f' - Prob. Enc.: ({str(probabilidade).zfill(2)}%) Seq: {sequencia}')
+          f' - Prob. Enc.: ({str(probabilidade).zfill(2)}%) Sequência: [ ', end='')
+
+    print(*sequencia, ']')
 
 # Resultados
 print(f'\nAcuracidade do Modelo: {round((pontuacao[1]*100), 1)}%')

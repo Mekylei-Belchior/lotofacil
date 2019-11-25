@@ -4,9 +4,7 @@
     <list default="true" id="a4974c87-12db-4ad4-9918-3aa68b1c65ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base_dados.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/base_dados.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calcular/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/calcular/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jogar.py" beforeDir="false" afterPath="$PROJECT_DIR$/jogar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sortear/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sortear/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,22 +17,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calcular/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="1836">
               <caret line="104" column="80" selection-start-line="104" selection-start-column="80" selection-end-line="104" selection-end-column="80" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jogar.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,6 +31,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jogar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="634">
+              <caret line="80" column="69" selection-start-line="80" selection-start-column="69" selection-end-line="80" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -70,8 +65,8 @@
         <option value="$PROJECT_DIR$/calcular_pesos.py" />
         <option value="$PROJECT_DIR$/dados/__init__.py" />
         <option value="$PROJECT_DIR$/sortear/__init__.py" />
-        <option value="$PROJECT_DIR$/jogar.py" />
         <option value="$PROJECT_DIR$/calcular/__init__.py" />
+        <option value="$PROJECT_DIR$/jogar.py" />
       </list>
     </option>
   </component>
@@ -263,11 +258,15 @@
       <workItem from="1574227000148" duration="11555000" />
       <workItem from="1574275631349" duration="24355000" />
       <workItem from="1574356741344" duration="13151000" />
+      <workItem from="1574450895686" duration="9000" />
+      <workItem from="1574535380536" duration="2297000" />
+      <workItem from="1574572097422" duration="16000" />
+      <workItem from="1574709592564" duration="684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110678000" />
+    <option name="totallyTimeSpent" value="113684000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -280,9 +279,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2473525" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2624811" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32993197" />
@@ -292,7 +292,7 @@
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.6139456" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32993197" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.3282313" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.32142857" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39965987" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -312,7 +312,7 @@
     <SUITE FILE_PATH="coverage/lotofacil$testes.coverage" NAME="testes Coverage Results" MODIFIED="1573811894087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lotofacil$calcular_pesos.coverage" NAME="calcular_pesos Coverage Results" MODIFIED="1573814891529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lotofacil$jogar_lotofacil.coverage" NAME="jogar_lotofacil Coverage Results" MODIFIED="1573840212678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lotofacil$jogar.coverage" NAME="jogar Coverage Results" MODIFIED="1574372217487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lotofacil$jogar.coverage" NAME="jogar Coverage Results" MODIFIED="1574710934784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lotofacil$sortear_numeros.coverage" NAME="sortear_numeros Coverage Results" MODIFIED="1573814898113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
@@ -334,16 +334,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sortear/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calcular/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="1836">
           <caret line="104" column="80" selection-start-line="104" selection-start-column="80" selection-end-line="104" selection-end-column="80" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -351,13 +344,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sortear/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jogar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="634">
+          <caret line="80" column="69" selection-start-line="80" selection-start-column="69" selection-end-line="80" selection-end-column="69" />
         </state>
       </provider>
     </entry>
