@@ -2,6 +2,13 @@ from random import choices
 
 
 def sortear_numeros(n_pesos: list, n_numero_peso: dict):
+    """
+    Sortea as quinze dezenas do jogo.
+
+    :param n_pesos: lista de peso das dezenas.
+    :param n_numero_peso: dicionário com as dezenas e seus respectivos pesos.
+    :return: as dezenas sorteadas.
+    """
 
     # Dezenas do jogo (1 à 25)
     dz = [d for d in range(1, 26)]

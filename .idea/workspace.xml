@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4974c87-12db-4ad4-9918-3aa68b1c65ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_dados.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/base_dados.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calcular/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/calcular/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dados/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jogar.py" beforeDir="false" afterPath="$PROJECT_DIR$/jogar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortear/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sortear/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,32 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calcular/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1836">
-              <caret line="104" column="80" selection-start-line="104" selection-start-column="80" selection-end-line="104" selection-end-column="80" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sortear/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="162">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jogar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="80" column="69" selection-start-line="80" selection-start-column="69" selection-end-line="80" selection-end-column="69" />
+            <state relative-caret-position="144">
+              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,10 +55,10 @@
         <option value="$PROJECT_DIR$/jogar_lotofacil.py" />
         <option value="$PROJECT_DIR$/testes.py" />
         <option value="$PROJECT_DIR$/calcular_pesos.py" />
+        <option value="$PROJECT_DIR$/jogar.py" />
+        <option value="$PROJECT_DIR$/calcular/__init__.py" />
         <option value="$PROJECT_DIR$/dados/__init__.py" />
         <option value="$PROJECT_DIR$/sortear/__init__.py" />
-        <option value="$PROJECT_DIR$/calcular/__init__.py" />
-        <option value="$PROJECT_DIR$/jogar.py" />
       </list>
     </option>
   </component>
@@ -91,6 +83,11 @@
               <item name="lotofacil" type="b2602c69:ProjectViewProjectNode" />
               <item name="lotofacil" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lotofacil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lotofacil" type="462c0819:PsiDirectoryNode" />
+              <item name="sortear" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -101,10 +98,10 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/masp-solucao-de-problemas" />
+    <property name="last_opened_file_path" value="D:/Programas/Pycharm/IntelliJ.Portuguese.Brazil.Dictionary-master/IntelliJ.Portuguese.Brazil.Dictionary-master/portuguese-brazil_technical-terms_without-accents.dic" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -239,6 +236,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="4" Folder0="D:\Programas\Pycharm\IntelliJ.Portuguese.Brazil.Dictionary-master\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder1="D:\Programas\Pycharm\IntelliJ.Portuguese.Brazil.Dictionary-master\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder2="D:\Programas\Pycharm\IntelliJ.Portuguese.Brazil.Dictionary-master\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder3="D:\Programas\Pycharm\IntelliJ.Portuguese.Brazil.Dictionary-master\IntelliJ.Portuguese.Brazil.Dictionary-master" CustomDictionaries="4" CustomDictionary0="D:\Programas\Pycharm\IntelliJ.Portuguese.Brazil.Dictionary-master\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil.dic" CustomDictionary1="D:\Programas\Pycharm\IntelliJ.Portuguese.Brazil.Dictionary-master\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_without-accents.dic" CustomDictionary2="D:\Programas\Pycharm\IntelliJ.Portuguese.Brazil.Dictionary-master\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_technical-terms.dic" CustomDictionary3="D:\Programas\Pycharm\IntelliJ.Portuguese.Brazil.Dictionary-master\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_technical-terms_without-accents.dic" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -261,12 +259,12 @@
       <workItem from="1574450895686" duration="9000" />
       <workItem from="1574535380536" duration="2297000" />
       <workItem from="1574572097422" duration="16000" />
-      <workItem from="1574709592564" duration="684000" />
+      <workItem from="1574709592564" duration="8580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113684000" />
+    <option name="totallyTimeSpent" value="121580000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -282,7 +280,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2624811" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2624811" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32993197" />
@@ -292,7 +290,7 @@
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.6139456" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32993197" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.32142857" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32142857" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39965987" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -312,7 +310,7 @@
     <SUITE FILE_PATH="coverage/lotofacil$testes.coverage" NAME="testes Coverage Results" MODIFIED="1573811894087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lotofacil$calcular_pesos.coverage" NAME="calcular_pesos Coverage Results" MODIFIED="1573814891529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lotofacil$jogar_lotofacil.coverage" NAME="jogar_lotofacil Coverage Results" MODIFIED="1573840212678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lotofacil$jogar.coverage" NAME="jogar Coverage Results" MODIFIED="1574710934784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lotofacil$jogar.coverage" NAME="jogar Coverage Results" MODIFIED="1574718020056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lotofacil$sortear_numeros.coverage" NAME="sortear_numeros Coverage Results" MODIFIED="1573814898113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
@@ -327,34 +325,40 @@
     <entry file="file://$PROJECT_DIR$/calcular_pesos.py" />
     <entry file="file://$PROJECT_DIR$/sortear_numeros.py" />
     <entry file="file://$PROJECT_DIR$/ciclo/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/dados/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calcular/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="104" column="80" selection-start-line="104" selection-start-column="80" selection-end-line="104" selection-end-column="80" />
+        <state relative-caret-position="-4500">
+          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sortear/__init__.py">
+    <entry file="file://$PROJECT_DIR$/dados/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        <state relative-caret-position="1440">
+          <caret line="80" column="50" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jogar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="80" column="69" selection-start-line="80" selection-start-column="69" selection-end-line="80" selection-end-column="69" />
+        <state relative-caret-position="144">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sortear/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
         </state>
       </provider>
     </entry>

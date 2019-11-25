@@ -1,16 +1,16 @@
 from collections import OrderedDict
 from random import choice, choices
-from dados import carregar
+from dados import carregar_dados
 
 # Carrega a base de dados
-dados = carregar()
+dados = carregar_dados()
 
 
 def gerar_frequencia():
     """
     Gera a frequência que cada número foi sorteado na totalização dos concursos.
 
-    :return: A frequência dos números e a quantidade de sorteios(concursos)
+    :return: A frequência dos números e a quantidade de sorteios(concursos).
     """
 
     sorteios = dados.iloc[:, 2:17].values
@@ -45,7 +45,7 @@ def ultimo_jogos():
     """
     Encontra a quantidade de jogos realizados posteriormente ao último ciclo fechado.
 
-    :return: A quantidade de jogos
+    :return: A quantidade de jogos.
     """
 
     # O maior ciclo fechado
@@ -65,7 +65,6 @@ def numeros_faltantes_ciclo():
     Obtem o(s) número(s) faltante(s) para fechar o ciclo das dezenas.
 
     :return: O(s) número(s) faltante(s) sorteado(s) e o percentual de reajuste de peso.
-
     """
 
     jogos = ultimo_jogos()
