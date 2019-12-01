@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4974c87-12db-4ad4-9918-3aa68b1c65ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/calcular/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/calcular/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculos/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/mekylei.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/mekylei.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_dados.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/base_dados.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calcular/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dados/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dados/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jogar.py" beforeDir="false" afterPath="$PROJECT_DIR$/jogar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sortear/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sortear/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortear/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorteios/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,23 +19,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sortear/__init__.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dados/dados.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="378">
+              <caret line="54" column="115" selection-start-line="54" selection-start-column="115" selection-end-line="54" selection-end-column="115" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jogar.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modelos/modelo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="37" selection-start-column="37" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -55,10 +59,16 @@
         <option value="$PROJECT_DIR$/jogar_lotofacil.py" />
         <option value="$PROJECT_DIR$/testes.py" />
         <option value="$PROJECT_DIR$/calcular_pesos.py" />
-        <option value="$PROJECT_DIR$/jogar.py" />
         <option value="$PROJECT_DIR$/calcular/__init__.py" />
-        <option value="$PROJECT_DIR$/dados/__init__.py" />
+        <option value="$PROJECT_DIR$/performace/__init__.py" />
         <option value="$PROJECT_DIR$/sortear/__init__.py" />
+        <option value="$PROJECT_DIR$/dados/__init__.py" />
+        <option value="$PROJECT_DIR$/calculos/pesos.py" />
+        <option value="$PROJECT_DIR$/calculos/faltantes.py" />
+        <option value="$PROJECT_DIR$/testes/dezenas_sorteadas.py" />
+        <option value="$PROJECT_DIR$/jogar.py" />
+        <option value="$PROJECT_DIR$/dados/dados.py" />
+        <option value="$PROJECT_DIR$/modelos/modelo.py" />
       </list>
     </option>
   </component>
@@ -76,6 +86,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,13 +97,32 @@
             <path>
               <item name="lotofacil" type="b2602c69:ProjectViewProjectNode" />
               <item name="lotofacil" type="462c0819:PsiDirectoryNode" />
-              <item name="sortear" type="462c0819:PsiDirectoryNode" />
+              <item name="calculos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lotofacil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lotofacil" type="462c0819:PsiDirectoryNode" />
+              <item name="dados" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lotofacil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lotofacil" type="462c0819:PsiDirectoryNode" />
+              <item name="modelos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lotofacil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lotofacil" type="462c0819:PsiDirectoryNode" />
+              <item name="sorteios" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lotofacil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lotofacil" type="462c0819:PsiDirectoryNode" />
+              <item name="testes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -102,6 +132,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mekyl\Documents\GitHub\lotofacil\testes" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -130,6 +165,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calcular_pesos.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dezenas_sorteadas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lotofacil" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testes/dezenas_sorteadas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,35 +261,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testes" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lotofacil" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.jogar" />
+        <item itemvalue="Python.dezenas_sorteadas" />
         <item itemvalue="Python.jogar_lotofacil" />
         <item itemvalue="Python.sortear_numeros" />
         <item itemvalue="Python.calcular_pesos" />
-        <item itemvalue="Python.testes" />
       </list>
     </recent_temporary>
   </component>
@@ -259,12 +294,20 @@
       <workItem from="1574450895686" duration="9000" />
       <workItem from="1574535380536" duration="2297000" />
       <workItem from="1574572097422" duration="16000" />
-      <workItem from="1574709592564" duration="8580000" />
+      <workItem from="1574709592564" duration="26229000" />
+      <workItem from="1574752395778" duration="1857000" />
+      <workItem from="1574835986480" duration="11000" />
+      <workItem from="1574935798057" duration="90000" />
+      <workItem from="1574942434986" duration="88000" />
+      <workItem from="1575044964724" duration="2813000" />
+      <workItem from="1575048642499" duration="599000" />
+      <workItem from="1575085639841" duration="5538000" />
+      <workItem from="1575146139309" duration="7284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121580000" />
+    <option name="totallyTimeSpent" value="157509000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -280,7 +323,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2624811" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1633888" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32993197" />
@@ -290,7 +333,7 @@
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.6139456" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32993197" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.32142857" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.28231293" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39965987" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -300,7 +343,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="5" side_tool="true" weight="0.7579425" />
+      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="5" side_tool="true" weight="0.72541606" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +353,8 @@
     <SUITE FILE_PATH="coverage/lotofacil$testes.coverage" NAME="testes Coverage Results" MODIFIED="1573811894087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lotofacil$calcular_pesos.coverage" NAME="calcular_pesos Coverage Results" MODIFIED="1573814891529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lotofacil$jogar_lotofacil.coverage" NAME="jogar_lotofacil Coverage Results" MODIFIED="1573840212678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/lotofacil$jogar.coverage" NAME="jogar Coverage Results" MODIFIED="1574718020056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lotofacil$dezenas_sorteadas.coverage" NAME="dezenas_sorteadas Coverage Results" MODIFIED="1575093898083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testes" />
+    <SUITE FILE_PATH="coverage/lotofacil$jogar.coverage" NAME="jogar Coverage Results" MODIFIED="1575210542830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lotofacil$sortear_numeros.coverage" NAME="sortear_numeros Coverage Results" MODIFIED="1573814898113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
@@ -325,40 +369,99 @@
     <entry file="file://$PROJECT_DIR$/calcular_pesos.py" />
     <entry file="file://$PROJECT_DIR$/sortear_numeros.py" />
     <entry file="file://$PROJECT_DIR$/ciclo/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/calcular/__init__.py">
+    <entry file="file://$PROJECT_DIR$/performace/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/dados/binario/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculos/faltantes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4500">
-          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+        <state relative-caret-position="252">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculos/frequencia.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dados/__init__.py">
+    <entry file="file://$PROJECT_DIR$/sorteios/sortear.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculos/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="80" column="50" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dados/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modelos/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorteios/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testes/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testes/dezenas_sorteadas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculos/pesos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jogar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="198">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sortear/__init__.py">
+    <entry file="file://$PROJECT_DIR$/dados/dados.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        <state relative-caret-position="378">
+          <caret line="54" column="115" selection-start-line="54" selection-start-column="115" selection-end-line="54" selection-end-column="115" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modelos/modelo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
         </state>
       </provider>
     </entry>
