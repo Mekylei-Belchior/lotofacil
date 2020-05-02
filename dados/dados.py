@@ -1,9 +1,12 @@
+# -*- coding: utf-8 -*-
+
+
 import pandas as pd
 
 from sklearn.model_selection import train_test_split
 
 
-def carregar_dados():
+def carregar_dados(guia='Importar_Ciclo'):
     """
     Importando os dados da planilha do Excel gerando o dataframe da base de dados.
 
@@ -12,7 +15,7 @@ def carregar_dados():
 
     caminho = 'base_dados.xlsx'
     planilha = pd.ExcelFile(caminho)
-    dados = pd.read_excel(planilha, 'Importar_Ciclo')
+    dados = pd.read_excel(planilha, guia)
 
     return dados
 
@@ -40,11 +43,12 @@ def preparar_dados():
     return atributos, classe
 
 
-def dividir_dados(tam_teste=0.2):
+def dividir_dados(tam_teste=0.1, seed=12):
     """
-    Divide a base de dados em treino e teste. Default: 80% dos dados para treino e 20% dos dados para teste.
+    Divide a base de dados em treino e teste. Default: 90% dos dados para treino e 10% dos dados para teste.
 
     :param tam_teste: define o percentual de dados para teste.
+    :param seed: padroniza a randomização dos dados para replicação do modelo.
     :return: os dados de treino, teste e o total de atributos contido na base de dados.
     """
 
@@ -52,7 +56,7 @@ def dividir_dados(tam_teste=0.2):
     total_atributos = atributos.shape[1]
 
     # Dividindo os dados em treino e teste
-    x_treino, x_teste, y_treino, y_teste = train_test_split(atributos, classe, test_size=tam_teste, random_state=12)
+    x_treino, x_teste, y_treino, y_teste = train_test_split(atributos, classe, test_size=tam_teste, random_state=seed)
 
     return x_treino, x_teste, y_treino, y_teste, total_atributos
 

@@ -4,11 +4,11 @@ from keras.layers import Dense
 from keras.models import Sequential
 
 
-def criar_modelo(primeira_camada=30, segunda_camada=15, terceira_camada=15, saida=1, periodo=50, lote=10):
+def criar_modelo(primeira_camada=30, segunda_camada=15, terceira_camada=15, saida=1, periodo=50, lote=15):
     """
     Cria o modelo sequêncial com três camadas.
 
-    :param primeira_camada: camada de entrada utilizando a função retificadora (relu). Default: 25 neurônios.
+    :param primeira_camada: camada de entrada utilizando a função retificadora (relu). Default: 30 neurônios.
     :param segunda_camada: segunda camada utilizando a função retificadora(relu). Default: 15 neurônios.
     :param terceira_camada: terceira camada utilizando a função retificadora (relu). Default 15 neurônios.
     :param saida: camada de saída utilizando a função de ativação (sigmoid). Default: 1 neurônio.

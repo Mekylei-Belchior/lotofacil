@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4974c87-12db-4ad4-9918-3aa68b1c65ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/calculos/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/mekylei.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/mekylei.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base_dados.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/base_dados.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calcular/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dados/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dados/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jogar.py" beforeDir="false" afterPath="$PROJECT_DIR$/jogar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sortear/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorteios/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dados/dados.py" beforeDir="false" afterPath="$PROJECT_DIR$/dados/dados.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelos/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modelos/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modelos/modelo.py" beforeDir="false" afterPath="$PROJECT_DIR$/modelos/modelo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorteios/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorteios/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testes/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,22 +21,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dados/dados.py">
+        <entry file="file://$PROJECT_DIR$/calculos/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="54" column="115" selection-start-line="54" selection-start-column="115" selection-end-line="54" selection-end-column="115" />
+            <state relative-caret-position="18">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dados/dados_bin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modelos/modelo.py">
+        <entry file="file://$PROJECT_DIR$/calculos/faltantes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="37" selection-start-column="37" selection-end-column="37" />
+            <state relative-caret-position="-2484">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modelos/modelo_binario.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,13 +87,19 @@
         <option value="$PROJECT_DIR$/calcular/__init__.py" />
         <option value="$PROJECT_DIR$/performace/__init__.py" />
         <option value="$PROJECT_DIR$/sortear/__init__.py" />
-        <option value="$PROJECT_DIR$/dados/__init__.py" />
         <option value="$PROJECT_DIR$/calculos/pesos.py" />
         <option value="$PROJECT_DIR$/calculos/faltantes.py" />
         <option value="$PROJECT_DIR$/testes/dezenas_sorteadas.py" />
         <option value="$PROJECT_DIR$/jogar.py" />
-        <option value="$PROJECT_DIR$/dados/dados.py" />
+        <option value="$PROJECT_DIR$/dados/__init__.py" />
+        <option value="$PROJECT_DIR$/sorteios/__init__.py" />
+        <option value="$PROJECT_DIR$/testes/__init__.py" />
         <option value="$PROJECT_DIR$/modelos/modelo.py" />
+        <option value="$PROJECT_DIR$/dados/dados.py" />
+        <option value="$PROJECT_DIR$/modelos/__init__.py" />
+        <option value="$PROJECT_DIR$/modelos/modelo_binario.py" />
+        <option value="$PROJECT_DIR$/testes/classe.py" />
+        <option value="$PROJECT_DIR$/dados/dados_bin.py" />
       </list>
     </option>
   </component>
@@ -150,8 +181,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.jogar">
-    <configuration name="calcular_pesos" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.classe">
+    <configuration name="classe" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lotofacil" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,12 +190,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calcular_pesos.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testes/classe.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dados_bin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lotofacil" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dados" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dados/dados_bin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -239,35 +292,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sortear_numeros" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lotofacil" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sortear_numeros.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.classe" />
+        <item itemvalue="Python.dados_bin" />
         <item itemvalue="Python.jogar" />
         <item itemvalue="Python.dezenas_sorteadas" />
         <item itemvalue="Python.jogar_lotofacil" />
-        <item itemvalue="Python.sortear_numeros" />
-        <item itemvalue="Python.calcular_pesos" />
       </list>
     </recent_temporary>
   </component>
@@ -302,12 +333,17 @@
       <workItem from="1575044964724" duration="2813000" />
       <workItem from="1575048642499" duration="599000" />
       <workItem from="1575085639841" duration="5538000" />
-      <workItem from="1575146139309" duration="7284000" />
+      <workItem from="1575146139309" duration="9865000" />
+      <workItem from="1575383620531" duration="12919000" />
+      <workItem from="1575435301641" duration="6058000" />
+      <workItem from="1575485950578" duration="23253000" />
+      <workItem from="1575927254142" duration="598000" />
+      <workItem from="1583592270405" duration="86000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157509000" />
+    <option name="totallyTimeSpent" value="203004000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -323,7 +359,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1633888" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17397882" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32993197" />
@@ -333,7 +369,7 @@
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.6139456" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32993197" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.28231293" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.35884354" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39965987" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -354,35 +390,18 @@
     <SUITE FILE_PATH="coverage/lotofacil$calcular_pesos.coverage" NAME="calcular_pesos Coverage Results" MODIFIED="1573814891529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lotofacil$jogar_lotofacil.coverage" NAME="jogar_lotofacil Coverage Results" MODIFIED="1573840212678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lotofacil$dezenas_sorteadas.coverage" NAME="dezenas_sorteadas Coverage Results" MODIFIED="1575093898083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testes" />
+    <SUITE FILE_PATH="coverage/lotofacil$dados_bin.coverage" NAME="dados_bin Coverage Results" MODIFIED="1575398655805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dados" />
     <SUITE FILE_PATH="coverage/lotofacil$jogar.coverage" NAME="jogar Coverage Results" MODIFIED="1575210542830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/lotofacil$sortear_numeros.coverage" NAME="sortear_numeros Coverage Results" MODIFIED="1573814898113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lotofacil$classe.coverage" NAME="classe Coverage Results" MODIFIED="1575526407780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testes" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="311" selection-start-line="311" selection-end-line="311" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testes.py" />
     <entry file="file://$PROJECT_DIR$/calcular_pesos.py" />
     <entry file="file://$PROJECT_DIR$/sortear_numeros.py" />
     <entry file="file://$PROJECT_DIR$/ciclo/__init__.py" />
     <entry file="file://$PROJECT_DIR$/performace/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/dados/binario/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculos/faltantes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dados/binario/__init__.py" />
     <entry file="file://$PROJECT_DIR$/calculos/frequencia.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -393,29 +412,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sorteios/sortear.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculos/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dados/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modelos/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorteios/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testes/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/testes/dezenas_sorteadas.py">
@@ -438,30 +434,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jogar.py">
+    <entry file="file://$PROJECT_DIR$/testes/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dados/dados.py">
+    <entry file="file://$PROJECT_DIR$/sorteios/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="54" column="115" selection-start-line="54" selection-start-column="115" selection-end-line="54" selection-end-column="115" />
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modelos/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testes/classe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dados/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dados/dados.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jogar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modelos/modelo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        <state relative-caret-position="432">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dados/dados_bin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modelos/modelo_binario.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculos/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculos/faltantes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2484">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
