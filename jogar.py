@@ -9,7 +9,7 @@ import pandas as pd
 sorteados = list()
 probabilidade = 0.00
 procurando = 0
-predicao_alvo = 00.00
+predicao_alvo = 0.00
 
 # probabilidade desejada
 prob_alvo = 100.0
