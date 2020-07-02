@@ -1,6 +1,6 @@
 def buscar(lista, elem_ini, elem_fin, valor_busca):
 	"""
-	Busca binária em um lista.
+	Busca binária em uma lista.
 	
 	
 	:param lista: lista que contém os elementos 
@@ -8,10 +8,10 @@ def buscar(lista, elem_ini, elem_fin, valor_busca):
 	:param elem_fin: Elemento final da lista ou sub-lista
 	:param valor_busca: Valor a ser encontrado
 	
-	return: O elemento buscado, caso ele esteja no lista.
+	return: O elemento buscado, caso ele esteja na lista.
 	"""
 	if elem_ini <= elem_fin:
-		# Elemento do meio do lista
+		# Elemento do meio da lista
 		meio = (elem_ini + elem_fin) // 2
 
 		if valor_busca > lista[meio]:
