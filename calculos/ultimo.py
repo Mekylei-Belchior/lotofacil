@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-
 from dados.dados import carregar_dados
 
 

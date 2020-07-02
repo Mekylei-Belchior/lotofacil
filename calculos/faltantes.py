@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-
 from calculos.frequencia import gerar_frequencia
 from calculos.ultimo import ultimo_jogos
 from dados.dados import carregar_dados

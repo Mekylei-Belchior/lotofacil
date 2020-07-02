@@ -1,9 +1,6 @@
-# -*- coding: utf-8 -*-
-
-
-import pandas as pd
-
 from sklearn.model_selection import train_test_split
+
+from pandas import ExcelFile, read_excel
 
 
 def carregar_dados(guia='Importar_Ciclo'):
@@ -14,8 +11,8 @@ def carregar_dados(guia='Importar_Ciclo'):
     """
 
     caminho = 'base_dados.xlsx'
-    planilha = pd.ExcelFile(caminho)
-    dados = pd.read_excel(planilha, guia)
+    planilha = ExcelFile(caminho)
+    dados = read_excel(planilha, guia)
 
     return dados
 

@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-
 from calculos.frequencia import gerar_frequencia
 from calculos.faltantes import numeros_faltantes_ciclo
 
