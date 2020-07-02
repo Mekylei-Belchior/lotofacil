@@ -1,1 +1,6 @@
-__all__ = ['possibilidades', 'resultados', 'analises']
+__all__ = ['analises', 
+		   'gerar_combinacoes',
+		   'indice_resultado',
+		   'possibilidades',
+		   'resultados'
+		   ]
