@@ -1,14 +1,14 @@
 # LOTOFÁCIL  
 Jogando na Lotofácil utilizando rede neural.  
 
-Liguagem utilizada: Python 3 (v3.7.3)  
+Liguagem utilizada: Python 3 (v3.8.2)  
 
 ### PACOTES UTILIZADOS  
 
 - Pandas  
 - Numpy  
 - Keras  
-- Sklearn
+- Scikit-learn
 
 ### FUNCIONALIDADES  
 
