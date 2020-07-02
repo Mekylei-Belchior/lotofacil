@@ -27,6 +27,7 @@ print()
 print(f'\033[1;33mCarregando e reajustando os demais dados...\033[m')
 print()
 
+# Carrega e modela os demais dados
 possibilidades = obter_possibilidades()
 resultado_concursos = resultados_ordenados()
 possibilidades_atualizada = remover_resultado_concursos(
@@ -57,10 +58,6 @@ while probabilidade < prob_alvo and not jogo_aceito:
     # Verifica se o jogo é possível e se ainda não foi sorteado em algum concurso
     if probabilidade >= prob_alvo:
         jogo_aceito = [True if jogo in possibilidades_atualizada else False]
-        
-        if jogo_aceito:
-            if jogo != [2, 4, 5, 6, 7, 8, 9, 10, 13, 14, 15, 21, 23, 24, 25]:
-                jogo_aceito = False
     else:
         jogo_aceito = False
 
