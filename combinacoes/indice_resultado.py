@@ -13,7 +13,7 @@ def dados_indice(atualizar_base_resultados=False):
 	Cria um DataFrame com algumas informações dos concursos da Lotofácil.
 
 	:param atualizar_base_resultados: True atualiza a base, do contrário, não.
-	[default: False]
+	(default: {False})
 
 	Campos do DataFrame:
 
@@ -30,11 +30,11 @@ def dados_indice(atualizar_base_resultados=False):
 		from base import resultados_lotofacil
 	
 	resultado_concurso = read_csv(
-								  ARQUIVO,
-								  sep=';',
-								  encoding='utf-8',
-								  parse_dates=['Data Sorteio']
-								  )
+									ARQUIVO,
+									sep=';',
+								 	encoding='utf-8',
+								 	parse_dates=['Data Sorteio']
+								 )
 
 	num_sorteados = resultado_concurso.iloc[:, 2:17]
 	num_ordenados = num_sorteados.values
