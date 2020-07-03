@@ -30,9 +30,9 @@ def dados_indice(atualizar_base_resultados=False):
 		from base import resultados_lotofacil
 	
 	resultado_concurso = read_csv(ARQUIVO,
-									sep=';',
-								  	encoding='utf-8',
-								  	parse_dates=['Data Sorteio'])
+								  sep=';',
+								  encoding='utf-8',
+								  parse_dates=['Data Sorteio'])
 
 	num_sorteados = resultado_concurso.iloc[:, 2:17]
 	num_ordenados = num_sorteados.values
