@@ -1,7 +1,8 @@
 # LOTOFÁCIL  
 Jogando na Lotofácil utilizando rede neural.  
 
-Linguagem utilizada: Python 3 (v3.8.2)  
+## INFORMAÇÕES  
+**Linguagem utilizada: Python 3 (v3.8.2)**  
 
 ### PACOTES UTILIZADOS  
 
@@ -19,7 +20,7 @@ Linguagem utilizada: Python 3 (v3.8.2)
 
 
 # PRINCIPAIS INFORMAÇÕES DO JOGO
-PS.: Informações obtidas no site da Caixa Econômica Federal, acessado em: 08/07/2020.  
+**Observação**: Informações obtidas no site da Caixa Econômica Federal, acessado em: 08/07/2020.  
 Para maiores informações acessar o site da [LOTOFÁCIL](http://loterias.caixa.gov.br/wps/portal/loterias/landing/lotofacil/).  
   
   
