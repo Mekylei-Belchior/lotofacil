@@ -19,11 +19,10 @@ Jogando na Lotofácil utilizando rede neural.
 - Análise de probabilidade das dezenas dos jogos serem sorteadas  
 
 
-# PRINCIPAIS INFORMAÇÕES DO JOGO
-**Observação**: Informações obtidas no site da Caixa Econômica Federal, acessado em: 08/07/2020.  
-Para maiores informações acessar o site da [LOTOFÁCIL](http://loterias.caixa.gov.br/wps/portal/loterias/landing/lotofacil/).  
-  
-  
+# PRINCIPAIS INFORMAÇÕES DO JOGO  
+Informações obtidas no site da Caixa Econômica Federal, acessado em: 08/07/2020.  
+
+**Observação**: Para maiores informações acessar o site da [LOTOFÁCIL](http://loterias.caixa.gov.br/wps/portal/loterias/landing/lotofacil/).   
   
 ## Como jogar  
 A Lotofácil é, como o próprio nome diz, fácil de apostar e principalmente de ganhar. Você marca entre 15 a 18 números, dentre os 25 disponíveis no volante, e fatura o prêmio se acertar 11, 12, 13, 14 ou 15 números. Pode ainda deixar que o sistema escolha os números para você por meio da Surpresinha, ou concorrer com a mesma aposta por 3, 6, 9 ou 12 concursos consecutivos através da Teimosinha.
