@@ -1,6 +1,6 @@
-from combinacoes.possibilidades import obter_possibilidades
-from combinacoes.resultados import resultados_ordenados
-from combinacoes.analises import obter_indices
+from processamento.possibilidades import obter_possibilidades
+from processamento.resultados import resultados_ordenados
+from processamento.reajustar_dados import obter_indices
 
 from pandas import read_csv
 
@@ -27,7 +27,7 @@ def dados_indice(atualizar_base_resultados=False):
 
 	if atualizar_base_resultados:
 		# Atualiza o arquivo com todos os resultados dos sorteios já realizados
-		from base import resultados_lotofacil
+		from dados import scrapping_resultados	
 	
 	resultado_concurso = read_csv(ARQUIVO,
 								  sep=';',

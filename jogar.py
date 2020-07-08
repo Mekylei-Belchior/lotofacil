@@ -1,6 +1,6 @@
-from combinacoes.analises import remover_resultado_concursos
-from combinacoes.possibilidades import obter_possibilidades
-from combinacoes.resultados import resultados_ordenados
+from processamento.reajustar_dados import remover_resultado_concursos
+from processamento.possibilidades import obter_possibilidades
+from processamento.resultados import resultados_ordenados
 from calculos.pesos import calcular_numero_pesos
 from sorteios.sortear import sortear_numeros
 from modelo.modelo import criar_modelo
@@ -9,10 +9,10 @@ from pandas import DataFrame
 
 
 # Inicialização das variáveis
-sorteados = list()
 probabilidade = 0.00
-procurando = 0
 predicao_alvo = 0.00
+sorteados = list()
+procurando = 0
 
 # probabilidade desejada
 prob_alvo = 100.0
@@ -23,24 +23,28 @@ peso, numero_pesos = calcular_numero_pesos()
 # Obtém o modelo e sua acuracidade
 modelo, pontuacao = criar_modelo()
 
+# Carrega e reajusta os demais dados
 print()
-print(f'\033[1;33mCarregando e reajustando os demais dados...\033[m')
+print(f'\033[1;33m[Carregando e reajustando os demais dados...]\033[m')
 print()
 
-# Carrega e modela os demais dados
 possibilidades = obter_possibilidades()
 resultado_concursos = resultados_ordenados()
 possibilidades_atualizada = remover_resultado_concursos(
                                                         possibilidades, 
                                                         resultado_concursos
                                                         )
+
+# Variável de verificação se o jogo gerado é aceitável
 jogo_aceito = False
 
-# Replica até que a probabilidade atual seja igual à probabilidade desejada
+# Replica até que a probabilidade seja igual à probabilidade desejada
+# e o jogo seja aceitável 
 while probabilidade < prob_alvo and not jogo_aceito:
 
     # Atribui a sequência dos números sorteados
     sorteados = sortear_numeros(peso, numero_pesos)
+    # Ordena a lista dos números sorteados
     jogo = sorted([numeros[0] for numeros in sorteados])
 
     # Cria o dataframe com os números sorteados para realizar a predição
@@ -73,6 +77,7 @@ while probabilidade < prob_alvo and not jogo_aceito:
 
     print(*sequencia, ']')
 
+    # Se o jogo não é aceitável, zera a probabilidade para gerar novo jogo
     if not jogo_aceito:
         probabilidade = 0.0
 

@@ -1,1 +1,5 @@
-__all__ = ['dados']
+__all__ = [
+			'busca',
+			'dados',
+			'scrapping_resultados',
+			'gerar_combinacoes']

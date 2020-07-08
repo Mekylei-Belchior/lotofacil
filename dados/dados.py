@@ -10,7 +10,7 @@ def carregar_dados(guia='Importar_Ciclo'):
     :return: a base de dados.
     """
 
-    caminho = 'base_dados.xlsx'
+    caminho = './base/base_dados.xlsx'
     planilha = ExcelFile(caminho)
     dados = read_excel(planilha, guia)
 
