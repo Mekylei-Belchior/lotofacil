@@ -4,7 +4,7 @@ Jogando na Lotofácil utilizando rede neural.
 ## INFORMAÇÕES  
 **Linguagem utilizada: Python 3 (v3.8.2)**  
 
-### PACOTES UTILIZADOS  
+### PRINCIPAIS PACOTES UTILIZADOS  
 
 - Pandas  
 - Numpy  
@@ -46,7 +46,7 @@ Após a apuração dos ganhadores dos prêmios com valores fixos, o valor restan
 
 Os prêmios prescrevem 90 dias após a data do sorteio. Após esse prazo, os valores são repassados ao Tesouro Nacional para aplicação no FIES - Fundo de Financiamento ao Estudante do Ensino Superior.
 
-**Recebimento de prêmios**
+### Recebimento de prêmios  
 
 Você pode receber seu prêmio em qualquer casa lotérica credenciada ou nas agências da Caixa. Caso o prêmio líquido seja superior a R$ 1.332,78 (bruto de R$ 1.903,98) o pagamento pode ser realizado somente nas agências da Caixa. Valores iguais ou acima de R$ 10.000,00 são pagos após 2 dias de sua apresentação na agência da Caixa.
 
