@@ -31,8 +31,7 @@ def dados_indice(atualizar_base_resultados=False):
 	
 	resultado_concurso = read_csv(ARQUIVO,
 								  sep=';',
-								  encoding='utf-8',
-								  parse_dates=['Data Sorteio'])
+								  encoding='utf-8')
 
 	num_sorteados = resultado_concurso.iloc[:, 2:17]
 	num_ordenados = num_sorteados.values
@@ -45,6 +44,14 @@ def dados_indice(atualizar_base_resultados=False):
 	indices = obter_indices(possibilidades, resultados)
 
 	dados = resultado_concurso[['Concurso', 'Data Sorteio', 'Ganhou']]
+	
+	dia = dados['Data Sorteio'].apply(lambda data: data[0:2])
+	mes = dados['Data Sorteio'].apply(lambda data: data[3:5])
+	ano = dados['Data Sorteio'].apply(lambda data: data[-4:])
+
 	dados.insert(1, 'Indice', indices)
+	dados.insert(len(dados.columns), column='Dia', value=dia)
+	dados.insert(len(dados.columns), column='Mes', value=mes)
+	dados.insert(len(dados.columns), column='Ano', value=ano)
 
 	return dados 

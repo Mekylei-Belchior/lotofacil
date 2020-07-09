@@ -14,8 +14,11 @@ DEZENAS = [i for i in range(1, 26)]
 # Diretório aonde será salvo o arquivo
 DIR = './combinacoes/combinacoes.csv'
 
+# Quantidade de dezenas
+TM = 15
 
-def criar_combinacoes_csv(dr=DIR, cb=CABECALHO, dz=DEZENAS, tm=15):
+
+def criar_combinacoes_csv(dr=DIR, cb=CABECALHO, dz=DEZENAS, tm=TM):
 	"""
 	Cria um arquivo CSV com todos as combinações possíveis da Lotofácil. 
 	
@@ -41,5 +44,23 @@ def criar_combinacoes_csv(dr=DIR, cb=CABECALHO, dz=DEZENAS, tm=15):
 				indice += 1
 
 
-if __name__ == '__main__':
+
+def criar_combinacoes(dz=DEZENAS, tm=TM):
+	"""
+	Cria uma lista com todos as combinações possíveis da Lotofácil de acordo
+	com a quantidade de dezenas para a combinação. 
+	
+	:param dz: Dezenas da Lotofácil (default: {DEZENAS})
+	:param tm: Quantidade de dezenas para a combinação (default: {15})
+	"""
+
+	combinacoes = list()
+
+	for combinacao in combinations(dz, tm):
+		combinacoes.append(list(combinacao))
+
+	return combinacoes
+
+
+if __name__ == '__main__':	
 	criar_combinacoes_csv()
