@@ -8,10 +8,10 @@ CABECALHO = ['seq', 'n1', 'n2', 'n3', 'n4', 'n5',
 			 'n6', 'n7', 'n8', 'n9', 'n10', 'n11',
 			 'n12', 'n13', 'n14', 'n15']
 
-# Lista das 25 dezenas da Lotofácil
+# Lista com as 25 dezenas da Lotofácil
 DEZENAS = [i for i in range(1, 26)]
 
-# Diretório aonde será salvo o arquivo
+# Diretório
 DIR = './combinacoes/combinacoes.csv'
 
 # Quantidade de dezenas
