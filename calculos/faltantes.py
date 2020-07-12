@@ -17,7 +17,7 @@ def numeros_faltantes_ciclo():
 
     maior_peso = 0
 
-    # Obtém o maior peso
+    # Obtém o maior peso (maior frequência na relação de dezenas)
     for chave, valor in frequencia[0].items():
         maior_peso = valor
         break
