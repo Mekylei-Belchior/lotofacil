@@ -4,9 +4,13 @@ from processamento.resultados import resultados_ordenados
 from calculos.pesos import calcular_numero_pesos
 from sorteios.sortear import sortear_numeros
 from modelo.modelo import criar_modelo
+from dados.dados import carregar_dados
 
 from pandas import DataFrame
 
+
+# Carrega a base de dados
+dados = carregar_dados()
 
 # Inicialização das variáveis
 probabilidade = 0.00
@@ -18,10 +22,10 @@ procurando = 0
 prob_alvo = 100.0
 
 # Obtém os pesos de cada dezena e um dicionários com as dezenas e seus pesos
-peso, numero_pesos = calcular_numero_pesos()
+peso, numero_pesos = calcular_numero_pesos(dados)
 
 # Obtém o modelo e sua acuracidade
-modelo, pontuacao = criar_modelo()
+modelo, pontuacao = criar_modelo(dados)
 
 # Carrega e reajusta os demais dados
 print()
@@ -29,7 +33,7 @@ print(f'\033[1;33m[Carregando e reajustando os demais dados...]\033[m')
 print()
 
 possibilidades = obter_possibilidades()
-resultado_concursos = resultados_ordenados()
+resultado_concursos = resultados_ordenados(dados)
 possibilidades_atualizada = remover_resultado_concursos(
                                                         possibilidades, 
                                                         resultado_concursos

@@ -1,19 +1,43 @@
 from calculos.frequencia import gerar_frequencia
-from calculos.ultimo import ultimo_jogos
-from dados.dados import carregar_dados
 from random import choice, choices
 
 
-def numeros_faltantes_ciclo():
+def ultimo_jogos(base_dados):
+    """
+    Encontra a quantidade de jogos realizados posteriormente ao último ciclo fechado.
+
+    :param base_dados: DataFrame da base de dados.
+
+    :return: a quantidade de jogos.
+    """
+
+    # Carrega a base de dados
+    dados = base_dados.copy()
+
+    # O maior ciclo fechado
+    maior = max(dados['Ciclo'])
+
+    # Índice do último ciclo fechado
+    ciclo = int(dados.query(f'Ciclo == {maior}')['Concurso'].index[0])
+
+    # Quantidade de jogos realizados após o último ciclo fechado
+    jogos = len(dados.iloc[ciclo + 1:])
+
+    return jogos
+
+
+def numeros_faltantes_ciclo(base_dados):
     """
     Obtem o(s) número(s) faltante(s) para fechar o ciclo das dezenas.
+
+    :param base_dados: DataFrame da base de dados.
 
     :return: o(s) número(s) faltante(s) sorteado(s) e o percentual de reajuste de peso.
     """
 
-    jogos = ultimo_jogos()
-    dados = carregar_dados()
-    frequencia = gerar_frequencia()
+    dados = base_dados.copy()
+    jogos = ultimo_jogos(dados)
+    frequencia = gerar_frequencia(dados)
 
     maior_peso = 0
 

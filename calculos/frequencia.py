@@ -1,15 +1,16 @@
 from collections import OrderedDict
-from dados.dados import carregar_dados
 
 
-def gerar_frequencia():
+def gerar_frequencia(base_dados):
     """
     Gera a frequência que cada número foi sorteado na totalização dos concursos.
+
+    :param base_dados: DataFrame da base de dados.
 
     :return: a frequência dos números e a quantidade de sorteios(concursos).
     """
     # Carrega a base de dados
-    dados = carregar_dados()
+    dados = base_dados.copy()
 
     sorteios = dados.iloc[:, 2:17].values
     qtde_sorteios = len(sorteios)

@@ -4,10 +4,19 @@ from keras.layers import Dense
 from keras.models import Sequential
 
 
-def criar_modelo(primeira_camada=30, segunda_camada=15, terceira_camada=15, saida=1, periodo=50, lote=15):
+def criar_modelo(
+                    base_dados, 
+                    primeira_camada=30,
+                    segunda_camada=15,
+                    terceira_camada=15,
+                    saida=1,
+                    periodo=50,
+                    lote=15
+                ):
     """
     Cria o modelo sequêncial com três camadas.
 
+    :param base_dados: DataFrame da base de dados.
     :param primeira_camada: camada de entrada utilizando a função retificadora (relu). Default: 30 neurônios.
     :param segunda_camada: segunda camada utilizando a função retificadora(relu). Default: 15 neurônios.
     :param terceira_camada: terceira camada utilizando a função retificadora (relu). Default 15 neurônios.
@@ -17,7 +26,7 @@ def criar_modelo(primeira_camada=30, segunda_camada=15, terceira_camada=15, said
     :return: o modelo gerado.
     """
 
-    x_treino, x_teste, y_treino, y_teste, atributos = dividir_dados()
+    x_treino, x_teste, y_treino, y_teste, atributos = dividir_dados(base_dados)
 
     # Criando o modelo
     modelo = Sequential()
@@ -29,7 +38,10 @@ def criar_modelo(primeira_camada=30, segunda_camada=15, terceira_camada=15, said
     modelo.add(Dense(saida, activation='sigmoid'))
 
     # Compilando o modelo
-    modelo.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
+    modelo.compile(
+                    loss='binary_crossentropy',
+                    optimizer='adam',
+                    metrics=['accuracy'])
 
     # Treinando o modelo
     modelo.fit(x_treino, y_treino, epochs=periodo, batch_size=lote)

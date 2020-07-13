@@ -4,16 +4,18 @@ from calculos.faltantes import numeros_faltantes_ciclo
 from random import choice
 
 
-def calcular_pesos():
+def calcular_pesos(base_dados):
     """
     Calcula o peso de cada dezena.
+
+    :param base_dados: DataFrame da base de dados.
 
     :return: lista com os pesos(percentual de ocorrência de cada dezena considerando o ajuste para aquelas
     que são faltantes para completar o ciclo das dezenas).
     """
 
-    frequencia, qtde_sorteios = gerar_frequencia()
-    numeros_faltantes = numeros_faltantes_ciclo()
+    frequencia, qtde_sorteios = gerar_frequencia(base_dados)
+    numeros_faltantes = numeros_faltantes_ciclo(base_dados)
 
     # Aplicado para uma ocorrência de percentual que já existe
     fator_distincao = [float('0.000' + str(n)) for n in range(100, 10000)]
@@ -86,14 +88,16 @@ def calcular_pesos():
     return l_peso
 
 
-def calcular_numero_pesos():
+def calcular_numero_pesos(base_dados):
     """
     Gera um dicionário contendo os números e os seus pesos.
+
+    :param base_dados: DataFrame da base de dados.
 
     :return: a relação de números com os seus pesos.
     """
 
-    peso = calcular_pesos()
+    peso = calcular_pesos(base_dados)
 
     n_peso = dict()
 
