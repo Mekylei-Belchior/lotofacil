@@ -200,9 +200,9 @@ No PowerShell, vá para o diretório raíz do projeto e execute os comandos.
 
 Se todos os passos foram realizados e o ambiente está ativo, agora o projeto está pronto para ser executado. Para isso, execute o comando abaixo no diretório raíz do projeto:
 
-    ```
-    python .\jogar.py
-    ```
+```
+python .\jogar.py
+```
 
 ### Dúvidas, bugs e sugestões
 
