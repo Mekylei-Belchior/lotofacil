@@ -4,7 +4,7 @@ from io import BytesIO
 from pandas import read_html
 
 
-URL = 'http://www1.caixa.gov.br/loterias/_arquivos/loterias/D_lotfac.zip'
+URL = 'http://loterias.caixa.gov.br/wps/portal/loterias/landing/lotofacil/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOLNDH0MPAzcDbz8vTxNDRy9_Y2NQ13CDA0sTIEKIoEKnN0dPUzMfQwMDEwsjAw8XZw8XMwtfQ0MPM2I02-AAzgaENIfrh-FqsQ9wBmoxN_FydLAGAgNTKEK8DkRrACPGwpyQyMMMj0VAcySpRM!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_HGK818G0K85260Q5OIRSC42046/res/id=historicoHTML/c=cacheLevelPage/=/'
 
 
 def html_resultados(url):
@@ -30,7 +30,7 @@ def html_resultados(url):
 		return dados
 
 
-html = html_resultados(URL)
+html = get(URL).content
 
 # Cria uma lista a partir da variável (html)
 dados = read_html(html)
