@@ -10,12 +10,12 @@ def resultados_ordenados(base_dados):
 	return: Retorna uma lista com todos os resultados da lotofácil
 	em ordem crescente.
 	"""
-	dados = base_dados.copy()
+	# dados = base_dados.copy()
 
-	num_sorteados = dados.iloc[:, 2:17]
-	num_ordenados = num_sorteados.values
+	# num_sorteados = dados.iloc[:, 2:17]
+	# num_ordenados = num_sorteados.values
 
-	for numeros in num_ordenados:
-		numeros.sort()
+	# for numeros in num_ordenados:
+	# 	numeros.sort()
 
-	return num_ordenados.tolist()
+	return base_dados.sort_values('ds')

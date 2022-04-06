@@ -13,7 +13,9 @@ def obter_possibilidades(arq=ARQUIVO):
 	:return: Uma lista com todas as combinações 
 	"""
 
-	df = read_csv(arq, sep=';', encoding='utf-8')
+	df = read_csv(arq, sep=';', encoding='utf-8').set_index('seq')
+	df['ds'] = df.apply(lambda x: ','.join(map(str,sorted(x))), axis=1)
+	return df
 	
 	df.drop(columns=['seq'], inplace=True)
 	possibilidades = df.values

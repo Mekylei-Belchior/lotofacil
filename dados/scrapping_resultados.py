@@ -3,7 +3,6 @@ from requests import get
 from io import BytesIO
 from pandas import read_html
 
-#!TODO get data with API https://apiloterias.com.br/
 URL = 'http://www1.caixa.gov.br/loterias/_arquivos/loterias/D_lotfac.zip'
 
 

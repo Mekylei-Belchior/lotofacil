@@ -1,6 +1,6 @@
 from sklearn.model_selection import train_test_split
 
-from pandas import ExcelFile, read_excel
+from pandas import read_csv
 
 
 def carregar_dados(guia='Importar_Ciclo'):
@@ -11,9 +11,10 @@ def carregar_dados(guia='Importar_Ciclo'):
     :return: a base de dados.
     """
 
-    caminho = './base/base_dados.xlsx'
-    planilha = ExcelFile(caminho)
-    dados = read_excel(planilha, guia)
+    # caminho = './base/base_dados.xlsx'
+    # planilha = ExcelFile(caminho)
+    caminho = './base/base_dados.csv'
+    dados = read_csv(caminho)
 
     return dados
 

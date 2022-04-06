@@ -72,15 +72,11 @@ def read_all():
 def processa_all(df):
 	df = df.copy()
 	df['dezenasSorteadasOrdemSorteio'] = df['dezenasSorteadasOrdemSorteio'].apply(lambda l: [int(i) for i in l])
-	df['numeroDeGanhadores15acertos'] = df['listaRateioPremio'].apply(lambda x: x[0]['numeroDeGanhadores'])
+	df['ganhou'] = df['listaRateioPremio'].apply(lambda x: x[0]['numeroDeGanhadores'])
 
-	df = df[['dataApuracao','dezenasSorteadasOrdemSorteio','numeroDeGanhadores15acertos']]
-	df['ganhou'] = (df['numeroDeGanhadores15acertos'] >= 1).apply(lambda x: 1 if x else 0)
-	df['ciclo'] = 0
-	df['jogos'] = 0
-	df['jogo'] = 0
-	df['falta'] = 0
-	df['dezenasFaltantes'] = df['dezenasSorteadasOrdemSorteio']
+	df = df[['dataApuracao','dezenasSorteadasOrdemSorteio','ganhou']]
+	df[['ciclo','jogos','jogo','falta']] = 0
+	df['dezenasFaltantes'] = None
 
 	dezenas = list(range(1,26))
 	dezenasFaltantes = dezenas

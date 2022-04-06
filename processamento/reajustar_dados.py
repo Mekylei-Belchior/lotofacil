@@ -1,4 +1,5 @@
 from dados.busca import buscar
+from pandas import Series
 
 
 def remover_resultado_concursos(possibilidades, resultado_concursos):
@@ -10,23 +11,23 @@ def remover_resultado_concursos(possibilidades, resultado_concursos):
 	
 	return:	A lista de possibilidades sem os resultados já sorteados.
 	"""
-	from pandas import Series
 
-	elem_ini = 0
-	elem_fin = len(possibilidades) - 1
+	# elem_ini = 0
+	# elem_fin = len(possibilidades) - 1
 	
-	indices = [buscar(
-                      possibilidades,
-                      elem_ini,
-                      elem_fin,
-                      valor_busca
-	                 ) for valor_busca in resultado_concursos]
+	# indices = [buscar(
+    #                   possibilidades,
+    #                   elem_ini,
+    #                   elem_fin,
+    #                   valor_busca
+	#                  ) for valor_busca in resultado_concursos]
 	
-	s_possibilidades = Series(possibilidades)
-	removidos = s_possibilidades.drop(indices)
+	# s_possibilidades = Series(possibilidades)
+	
+	removidos = possibilidades.drop(index=possibilidades.loc[possibilidades['ds'].isin(resultado_concursos['ds'])].index)
 
-	lista_possibilidades_atualizada = removidos.values 
-	
+	lista_possibilidades_atualizada = removidos.values
+		
 	return lista_possibilidades_atualizada.tolist()
 
 
