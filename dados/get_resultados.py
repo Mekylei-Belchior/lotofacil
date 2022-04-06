@@ -1,6 +1,7 @@
 import json
 import codecs
 import logging
+from pathlib import Path
 import requests
 import pandas as pd
 from os.path import join, isfile
@@ -8,6 +9,8 @@ from os import makedirs, listdir, remove
 from time import sleep
 from shutil import rmtree
 from operator import itemgetter
+
+logger = logging.getLogger(__file__)
 
 def clean_all():
 	rmtree('resultados')
@@ -23,16 +26,16 @@ def download(numero:int=0):
 
 def download_all() -> list:
 	last = download()
-	files = [ join('resultados',f"{last['numero']}.json")]
+	files = [ join('dados','resultados',f"{last['numero']}.json")]
 	with codecs.open(files[0], 'w', encoding='utf-8') as f:
 		json.dump(last, f, indent=2, ensure_ascii=False)
 
 	for numero in range(1,last['numero']):
-		filepath = join('resultados',f"{numero}.json")
+		filepath = join('dados','resultados',f"{numero}.json")
 		finished = False
 		while not isfile(filepath) and not finished :
 			try:
-				logging.info(f"Requesting lotofacil nº {numero}")
+				logger.info(f"Requesting lotofacil nº {numero}")
 				concurso = download(numero)
 				assert concurso['numero']
 				
@@ -41,7 +44,7 @@ def download_all() -> list:
 
 				finished = True
 			except:
-				logging.error(f"Requesting lotofacil nº {numero}")
+				logger.error(f"Requesting lotofacil nº {numero}")
 				sleep(5)
 				pass
 		
@@ -52,19 +55,19 @@ def download_all() -> list:
 	return files
 	
 def check_all():
-	files = [ join('resultados',f) for f in sorted(listdir('resultados')) if '.json' in f ]
+	files = [ join('dados','resultados',filepath) for filepath in sorted(filter(lambda f: '.json' in str(f),map(Path,listdir(join('dados','resultados')))), key=lambda f: int(f.stem))]
 	for filepath in files:
 		try:
-			logging.info(f"Check lotofacil {filepath}")
+			logger.info(f"Check lotofacil {filepath}")
 			with codecs.open(filepath, 'r', encoding='utf-8') as f:
 				concurso = json.load(f)
 		except:
-			logging.error(f"Check lotofacil {filepath}")
+			logger.error(f"Check lotofacil {filepath}")
 			remove(filepath)
 			raise
 
 def read_all():
-	files = [ join('resultados',f) for f in sorted(listdir('resultados')) if '.json' in f ]
+	files = [ join('dados','resultados',f) for f in sorted(listdir(join('dados','resultados'))) if '.json' in f ]
 	results = [ json.load(codecs.open(f, 'r', encoding='utf-8')) for f in files ]
 	list_tuples = [ itemgetter(*result.keys())(result) for result in results ]
 	return pd.DataFrame(data=list_tuples, columns=results[0].keys()).set_index('numero').sort_index()
