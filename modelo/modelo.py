@@ -1,8 +1,7 @@
 from dados.dados import dividir_dados
 
-from keras.layers import Dense
-from keras.models import Sequential
-
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.models import Sequential
 
 def criar_modelo(
                     base_dados, 

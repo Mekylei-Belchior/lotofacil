@@ -1,9 +1,4 @@
 requests==2.24.0
-Keras==2.9.0rc0
-pandas==1.4.4
-NumPy==1.21.0
-SciPy==1.3.2
-joblib==1.0.0
-threadpoolctl==2.0.0
-sklearn==0.0
-scikit_learn==1.1.2
+Keras==2.4.3
+pandas==1.0.5
+scikit_learn==0.23.1
