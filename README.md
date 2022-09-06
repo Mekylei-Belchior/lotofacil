@@ -24,7 +24,7 @@ Jogando na Lotofácil utilizando rede neural.
 
 Informações obtidas no site da Caixa Econômica Federal, acessado em: 08/07/2020.  
 
-**Observação**: Para maiores informações acessar o site da [LOTOFÁCIL](http://loterias.caixa.gov.br/wps/portal/loterias/landing/lotofacil/).   
+**Observação**: Para mais informações acessar o site da [LOTOFÁCIL](http://loterias.caixa.gov.br/wps/portal/loterias/landing/lotofacil/).   
   
 ## Como jogar  
 A Lotofácil é, como o próprio nome diz, fácil de apostar e principalmente de ganhar. Você marca entre 15 a 18 números, dentre os 25 disponíveis no volante, e fatura o prêmio se acertar 11, 12, 13, 14 ou 15 números. Pode ainda deixar que o sistema escolha os números para você por meio da Surpresinha, ou concorrer com a mesma aposta por 3, 6, 9 ou 12 concursos consecutivos através da Teimosinha.
@@ -92,7 +92,7 @@ O projeto utiliza o Python 3 na versão v3.8.2, e para melhor compatibilidade é
 
 [Download - Python 3 v3.8.2](https://www.python.org/downloads/release/python-382/)  
 
-## Criação do ambiente virtual  
+## Criação do ambiente virtual Windows
 
 Após a instalação do interpretador, versão do projeto, atualize o PIP (gerenciador de pacotes). Para tal, abrar o Prompt de comando ou o PowerShell, no caso do Windows, por exemplo, e execute o camando abaixo. Todos os comandos relacionados ao Python, a partir daqui, serão realizados utilizando o PowerShell do Windows.
 
@@ -108,20 +108,26 @@ python -m venv ambientevirtual
 
 Ao criar o ambiente virtual, você estará separando as parametrizações do projeto de outras alterações que possam ter no ambiente externo. Basicamente, você irá instalar neste ambiente somente as dependências que o projeto necessita para ser rodado.
 
-## Projeto  
-
 ### Estrutura do ambiente  
 
 Ao acessar o ambiente você irá visualizar a estrutura abaixo:
 
 ```
-C:\ambientevirtual
+.\ambientevirtual
 
     \Include
     \Lib
     \Scripts
     pyvenv.cfg
 ```
+
+## Ambiente Virtual Linux
+
+```
+sudo apt install python3-venv
+```
+
+## Projeto  
 
 Os diretórios principais são `Lib` e `Scripts` onde o primeiro irá armazenar os pacotes/dependências que serão utilizados no projeto e o outro o arquivo do interpretador assim como os arquivos para inicializar o ambiente, basicamente.
 
@@ -131,13 +137,13 @@ Para os próximos passos foi utilizado o GIT (ferramenta de versionamento). Caso
 
 1. Faça um fork deste repositório clicando no botão `Fork` no canto superior da tela.
 
-1. Dentro do diretório do ambiente virtual abra o Bash do GIT e inicialize o repositório local.
+2. Dentro do diretório do ambiente virtual abra o Bash do GIT e inicialize o repositório local.
 
     ```
    $ git init
    ```
 
-1. Faça um clone do repositório para a sua estação de trabalho:
+3. Faça um clone do repositório para a sua estação de trabalho:
 
    ```
    $ git clone https://github.com/<seu_usuario>/lotofacil
@@ -145,14 +151,26 @@ Para os próximos passos foi utilizado o GIT (ferramenta de versionamento). Caso
 
    Ob.: Será emitido um alerta de erro para o arquivo `lotofacil/base/resultados.csv` ao qual pode ser desconsiderado. O mesmo será criado posteriormente [Criar resultados e combinações](###Criar-resultados-e-combinações).
 
-### Inicializar o ambiente
+### Inicializar o ambiente Windows
 
 Agora que o projeto foi baixado para a sua máquina, se faz necessário inicializar o ambiente.
 
 1. No PowerShell, direcione para o diretório `C:\ambientevirtual\Scripts` e execute o comando:
 
+#### Windows 
+
    ```
    .\Activate.ps1
+   ```
+
+#### Linux
+
+   ```
+   python3 -m venv ambientevirtual
+   ```
+
+   ```
+   source ./ambientevirtual/bin/activate
    ```
 
     Este comando irá inicializar o ambiente virtual. Para se certificar que o ambiente foi inicializado, neste caso, vai aparecer o nome do diretório entre parenteses (ambientevirtual), geralmente na cor verde, antes do caminho do diretório atual.
@@ -170,6 +188,7 @@ Para instalar os pacotes e dependências que o projeto irá utilizar, inicialize
     ```
     pip install -r requirements.txt
     ```
+    
 1. Agora é preciso instalar mais dois pacotes (TensorFlow e o XRLD):
 
     ```
@@ -218,18 +237,19 @@ Sinta-se livre para contrituir com o projeto. Para tal, faça:
    $ git remote add upstream https://github.com/Mekylei-Belchior/lotofacil
    ```
 
-1. Uma vez feito o fork, crie um branch de trabalho (por exemplo, "feature-x")
+2. Uma vez feito o fork, crie um branch de trabalho (por exemplo, "feature-x")
 
    ```
    $ git checkout -b feature-x
    ```
 
-1. Trabalhe normalmente no branch feature-x. Quando estiver satisfeito com o resultado, faça o commit e em seguida o push:
+3. Trabalhe normalmente no branch feature-x. Quando estiver satisfeito com o resultado, faça o commit e em seguida o push:
 
    ```
    $ git push origin feature-x
    ```
 
-1. O branch usado no "git checkout" tem que casar com o branch usado no "git push".
+4. O branch usado no "git checkout" tem que casar com o branch usado no "git push".
 
-1. Por fim, entre no github e abra um Pull Request (PR).
+5. Por fim, entre no github e abra um Pull Request (PR).
+

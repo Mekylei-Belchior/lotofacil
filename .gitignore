@@ -5,7 +5,7 @@ __pycache__/
 
 .vscode/
 .history/
-.ambientevirtua/
+.ambientevirtual/
 
 # C extensions
 *.so
