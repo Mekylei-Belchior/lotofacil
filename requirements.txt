@@ -1,4 +1,4 @@
-requests==2.24.0
-Keras==2.4.3
-pandas==1.0.5
-scikit_learn==0.23.1
+requests
+Keras
+pandas
+scikit_learn

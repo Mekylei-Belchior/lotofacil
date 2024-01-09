@@ -191,6 +191,7 @@ No PowerShell, vá para o diretório raíz do projeto e execute os comandos.
     ```
 
 2. Para criar o arquivo de combinações:
+   Remova o CSV, que está no diretório combinacoes
 
     ```
     python .\dados\gerar_combinacoes.py
